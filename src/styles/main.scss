@@ -107,16 +107,19 @@
     letter-spacing: 1px;
     text-decoration: none;
     border: 1px solid variables.$mainButtonColor;
+    transition: all ease .3s;
 
     &:hover{
-        background-color: lighten(variables.$mainButtonColor, 3%);
+        background-color: lighten(variables.$mainButtonColor, 5%);
+        transition: all ease .3s;
     }
 
     &--secondary {
         background-color: variables.$secondButtonColor;
 
         &:hover {
-            background-color: lighten(variables.$secondButtonColor, 3%);
+            background-color: lighten(variables.$secondButtonColor, 9%);
+            transition: all ease .3s;
         }
     }
 
@@ -127,6 +130,7 @@
         &:hover {
             background-color: variables.$secondTextColor;
             color: variables.$backgroundColor;
+            transition: all ease .3s;
         }
     }
 }
